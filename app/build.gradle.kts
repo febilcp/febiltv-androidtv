@@ -7,6 +7,11 @@ android {
     namespace = "com.febilcp.febiltv"
     compileSdk = 35
 
+compileOptions {
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
+}
+
     defaultConfig {
         applicationId = "com.febilcp.febiltv"
         minSdk = 23
